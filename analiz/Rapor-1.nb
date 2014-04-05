@@ -1,0 +1,188 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      8801,        179]
+NotebookOptionsPosition[      8496,        163]
+NotebookOutlinePosition[      8833,        178]
+CellTagsIndexPosition[      8790,        175]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["2014 Belediye Se\[CCedilla]im Analizi", "Title"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.798413061722744, 0.824719615472648, 0.968322270542458], 
+   EdgeForm[Opacity[-0.034999999999999996`]], {}, 
+   {RGBColor[0.798413061722744, 0.824719615472648, 0.968322270542458], 
+    EdgeForm[Opacity[-0.034999999999999996`]], 
+    RectangleBox[{0.29, 0.}, {0.295, 1.},
+     RoundingRadius->0], RectangleBox[{0.37, 0.}, {0.375, 1.},
+     RoundingRadius->0], RectangleBox[{0.575, 0.}, {0.58, 1.},
+     RoundingRadius->0], RectangleBox[{0.595, 0.}, {0.6, 3.},
+     RoundingRadius->0], RectangleBox[{0.6, 0.}, {0.605, 1.},
+     RoundingRadius->0], RectangleBox[{0.61, 0.}, {0.615, 2.},
+     RoundingRadius->0], RectangleBox[{0.615, 0.}, {0.62, 1.},
+     RoundingRadius->0], RectangleBox[{0.63, 0.}, {0.635, 1.},
+     RoundingRadius->0], RectangleBox[{0.645, 0.}, {0.65, 1.},
+     RoundingRadius->0], RectangleBox[{0.655, 0.}, {0.66, 1.},
+     RoundingRadius->0], RectangleBox[{0.66, 0.}, {0.665, 1.},
+     RoundingRadius->0], RectangleBox[{0.665, 0.}, {0.67, 1.},
+     RoundingRadius->0], RectangleBox[{0.67, 0.}, {0.675, 1.},
+     RoundingRadius->0], RectangleBox[{0.675, 0.}, {0.68, 1.},
+     RoundingRadius->0], RectangleBox[{0.68, 0.}, {0.685, 1.},
+     RoundingRadius->0], RectangleBox[{0.685, 0.}, {0.69, 3.},
+     RoundingRadius->0], RectangleBox[{0.69, 0.}, {0.695, 1.},
+     RoundingRadius->0], RectangleBox[{0.695, 0.}, {0.7, 1.},
+     RoundingRadius->0], RectangleBox[{0.715, 0.}, {0.72, 1.},
+     RoundingRadius->0], RectangleBox[{0.72, 0.}, {0.725, 4.},
+     RoundingRadius->0], RectangleBox[{0.725, 0.}, {0.73, 1.},
+     RoundingRadius->0], RectangleBox[{0.73, 0.}, {0.735, 1.},
+     RoundingRadius->0], RectangleBox[{0.735, 0.}, {0.74, 3.},
+     RoundingRadius->0], RectangleBox[{0.74, 0.}, {0.745, 5.},
+     RoundingRadius->0], RectangleBox[{0.75, 0.}, {0.755, 10.},
+     RoundingRadius->0], RectangleBox[{0.755, 0.}, {0.76, 7.},
+     RoundingRadius->0], RectangleBox[{0.76, 0.}, {0.765, 6.},
+     RoundingRadius->0], RectangleBox[{0.765, 0.}, {0.77, 8.},
+     RoundingRadius->0], RectangleBox[{0.77, 0.}, {0.775, 9.},
+     RoundingRadius->0], RectangleBox[{0.775, 0.}, {0.78, 11.},
+     RoundingRadius->0], RectangleBox[{0.78, 0.}, {0.785, 17.},
+     RoundingRadius->0], RectangleBox[{0.785, 0.}, {0.79, 20.},
+     RoundingRadius->0], RectangleBox[{0.79, 0.}, {0.795, 27.},
+     RoundingRadius->0], RectangleBox[{0.795, 0.}, {0.8, 24.},
+     RoundingRadius->0], RectangleBox[{0.8, 0.}, {0.805, 35.},
+     RoundingRadius->0], RectangleBox[{0.805, 0.}, {0.81, 30.},
+     RoundingRadius->0], RectangleBox[{0.81, 0.}, {0.815, 39.},
+     RoundingRadius->0], RectangleBox[{0.815, 0.}, {0.82, 55.},
+     RoundingRadius->0], RectangleBox[{0.82, 0.}, {0.825, 57.},
+     RoundingRadius->0], RectangleBox[{0.825, 0.}, {0.83, 72.},
+     RoundingRadius->0], RectangleBox[{0.83, 0.}, {0.835, 71.},
+     RoundingRadius->0], RectangleBox[{0.835, 0.}, {0.84, 85.},
+     RoundingRadius->0], RectangleBox[{0.84, 0.}, {0.845, 80.},
+     RoundingRadius->0], RectangleBox[{0.845, 0.}, {0.85, 88.},
+     RoundingRadius->0], RectangleBox[{0.85, 0.}, {0.855, 131.},
+     RoundingRadius->0], RectangleBox[{0.855, 0.}, {0.86, 142.},
+     RoundingRadius->0], RectangleBox[{0.86, 0.}, {0.865, 149.},
+     RoundingRadius->0], RectangleBox[{0.865, 0.}, {0.87, 203.},
+     RoundingRadius->0], RectangleBox[{0.87, 0.}, {0.875, 229.},
+     RoundingRadius->0], RectangleBox[{0.875, 0.}, {0.88, 320.},
+     RoundingRadius->0], RectangleBox[{0.88, 0.}, {0.885, 348.},
+     RoundingRadius->0], RectangleBox[{0.885, 0.}, {0.89, 400.},
+     RoundingRadius->0], RectangleBox[{0.89, 0.}, {0.895, 490.},
+     RoundingRadius->0], RectangleBox[{0.895, 0.}, {0.9, 519.},
+     RoundingRadius->0], RectangleBox[{0.9, 0.}, {0.905, 691.},
+     RoundingRadius->0], RectangleBox[{0.905, 0.}, {0.91, 740.},
+     RoundingRadius->0], RectangleBox[{0.91, 0.}, {0.915, 763.},
+     RoundingRadius->0], RectangleBox[{0.915, 0.}, {0.92, 739.},
+     RoundingRadius->0], RectangleBox[{0.92, 0.}, {0.925, 798.},
+     RoundingRadius->0], RectangleBox[{0.925, 0.}, {0.93, 761.},
+     RoundingRadius->0], RectangleBox[{0.93, 0.}, {0.935, 753.},
+     RoundingRadius->0], RectangleBox[{0.935, 0.}, {0.94, 669.},
+     RoundingRadius->0], RectangleBox[{0.94, 0.}, {0.945, 512.},
+     RoundingRadius->0], RectangleBox[{0.945, 0.}, {0.95, 523.},
+     RoundingRadius->0], RectangleBox[{0.95, 0.}, {0.955, 361.},
+     RoundingRadius->0], RectangleBox[{0.955, 0.}, {0.96, 253.},
+     RoundingRadius->0], RectangleBox[{0.96, 0.}, {0.965, 190.},
+     RoundingRadius->0], RectangleBox[{0.965, 0.}, {0.97, 144.},
+     RoundingRadius->0], RectangleBox[{0.97, 0.}, {0.975, 108.},
+     RoundingRadius->0], RectangleBox[{0.975, 0.}, {0.98, 74.},
+     RoundingRadius->0], RectangleBox[{0.98, 0.}, {0.985, 77.},
+     RoundingRadius->0], RectangleBox[{0.985, 0.}, {0.99, 51.},
+     RoundingRadius->0], RectangleBox[{0.99, 0.}, {0.995, 35.},
+     RoundingRadius->0], RectangleBox[{0.995, 0.}, {1., 14.},
+     RoundingRadius->0], RectangleBox[{1., 0.}, {1.005, 76.},
+     RoundingRadius->0], RectangleBox[{1.005, 0.}, {1.01, 11.},
+     RoundingRadius->0], RectangleBox[{1.01, 0.}, {1.015, 17.},
+     RoundingRadius->0], RectangleBox[{1.015, 0.}, {1.02, 18.},
+     RoundingRadius->0], RectangleBox[{1.02, 0.}, {1.025, 17.},
+     RoundingRadius->0], RectangleBox[{1.025, 0.}, {1.03, 12.},
+     RoundingRadius->0], RectangleBox[{1.03, 0.}, {1.035, 15.},
+     RoundingRadius->0], RectangleBox[{1.035, 0.}, {1.04, 12.},
+     RoundingRadius->0], RectangleBox[{1.04, 0.}, {1.045, 7.},
+     RoundingRadius->0], RectangleBox[{1.045, 0.}, {1.05, 6.},
+     RoundingRadius->0], RectangleBox[{1.05, 0.}, {1.055, 5.},
+     RoundingRadius->0], RectangleBox[{1.055, 0.}, {1.06, 10.},
+     RoundingRadius->0], RectangleBox[{1.06, 0.}, {1.065, 4.},
+     RoundingRadius->0], RectangleBox[{1.065, 0.}, {1.07, 1.},
+     RoundingRadius->0], RectangleBox[{1.07, 0.}, {1.075, 5.},
+     RoundingRadius->0], RectangleBox[{1.075, 0.}, {1.08, 3.},
+     RoundingRadius->0], RectangleBox[{1.08, 0.}, {1.085, 2.},
+     RoundingRadius->0], RectangleBox[{1.085, 0.}, {1.09, 3.},
+     RoundingRadius->0], RectangleBox[{1.09, 0.}, {1.095, 2.},
+     RoundingRadius->0], RectangleBox[{1.095, 0.}, {1.1, 2.},
+     RoundingRadius->0], RectangleBox[{1.1, 0.}, {1.105, 3.},
+     RoundingRadius->0], RectangleBox[{1.11, 0.}, {1.115, 2.},
+     RoundingRadius->0], RectangleBox[{1.115, 0.}, {1.12, 8.},
+     RoundingRadius->0], RectangleBox[{1.125, 0.}, {1.13, 5.},
+     RoundingRadius->0], RectangleBox[{1.135, 0.}, {1.14, 1.},
+     RoundingRadius->0], RectangleBox[{1.14, 0.}, {1.145, 1.},
+     RoundingRadius->0], RectangleBox[{1.15, 0.}, {1.155, 1.},
+     RoundingRadius->0], RectangleBox[{1.2, 0.}, {1.205, 1.},
+     RoundingRadius->0], RectangleBox[{1.22, 0.}, {1.225, 1.},
+     RoundingRadius->0], RectangleBox[{1.23, 0.}, {1.235, 1.},
+     RoundingRadius->0], RectangleBox[{1.25, 0.}, {1.255, 2.},
+     RoundingRadius->0]}, {}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{
+    FormBox[
+    "\"Kat\[DotlessI]l\[DotlessI]m oran\[DotlessI]\"", TraditionalForm], 
+    FormBox[
+    "\"Sand\[DotlessI]k say\[DotlessI]s\[DotlessI]\"", TraditionalForm]},
+  AxesOrigin->{0.29, 0.},
+  Epilog->{
+    RGBColor[1, 0, 0], 
+    LineBox[{{1., 0}, {1., 800}}]},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  ImageSize->{472., Automatic},
+  PlotLabel->FormBox[
+   "\"Ankara 2014 yerel se\[CCedilla]im sand\[DotlessI]k kat\[DotlessI]l\
+\[DotlessI]m oran\[DotlessI] da\:011f\[DotlessI]l\[DotlessI]m\[DotlessI]\"", 
+    TraditionalForm],
+  PlotRange->{{0.29, 1.255}, {All, All}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.1]}},
+  Ticks->{Automatic, Automatic}]], "Input"]
+}, Open  ]]
+},
+WindowSize->{740, 623},
+WindowMargins->{{Automatic, 217}, {0, Automatic}},
+FrontEndVersion->"9.0 for Linux x86 (64-bit) (November 20, 2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 54, 0, 92, "Title"],
+Cell[636, 24, 7844, 136, 297, "Input"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
